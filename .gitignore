@@ -1,0 +1,33 @@
+# CMake build
+build/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Compiled files
+*.o
+*.so
+*.a
+
+# Point cloud data
+*.pcd
+*.las
+*.laz
+
+# Core dumps
+core
+core.*
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
